@@ -7,8 +7,7 @@ Running repository for the Game Development Bootcamp hosted by Petrichor' 23
 - Godot, GDSCript and A basic videogame structure in Godot
 
 ### References
-GDScript Slides :
-Godot Slides :
+[Slides](https://docs.google.com/presentation/d/12vit4hXfcXp_R_BJWsUnKeWgdnncVuhvZRSB5AZKeoc/edit?usp=drivesdk)
 
 ## Session 2
 ### Content
