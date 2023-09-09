@@ -13,7 +13,6 @@ Running repository for the Game Development Bootcamp hosted by Petrichor' 23
 ### Content
 - Player Movement
 - Player Animation
-- Tileset environment
 
 ### Resources
 `Assets/Characters` : A collection of 3 different character animation sprites  
@@ -22,4 +21,17 @@ Running repository for the Game Development Bootcamp hosted by Petrichor' 23
 ### References
 [Character Movement](https://docs.godotengine.org/en/stable/tutorials/2d/2d_movement.html)  
 [Sprite Animation](https://docs.godotengine.org/en/stable/tutorials/2d/2d_sprite_animation.html)  
+
+## Session 3
+### Content
+- Tileset environment
+- Signals
+    - Hazards (Spikes and out of bounds)
+    - Collectables (Coins)
+
+### Resources
+`Assets/Environment`  : A collection of objects you can add to the environment
+
+### References
 [Tilemaps](https://docs.godotengine.org/en/stable/tutorials/2d/using_tilemaps.html)
+[Signals](https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html)
