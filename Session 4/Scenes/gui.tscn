@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=3 uid="uid://8g6kmwxao4bc"]
+
+[ext_resource type="Texture2D" uid="uid://badu2ch3qusxl" path="res://Scenes/background.png" id="1_2lqoq"]
+[ext_resource type="Script" path="res://Scenes/gui.gd" id="1_j5k1y"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rgvla"]
+bg_color = Color(0.768627, 0.443137, 0.882353, 1)
+
+[sub_resource type="Theme" id="Theme_fm8jt"]
+Button/styles/hover = SubResource("StyleBoxFlat_rgvla")
+
+[node name="GUI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_j5k1y")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(428, 472)
+texture = ExtResource("1_2lqoq")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 392.0
+offset_top = 322.0
+offset_right = 433.0
+offset_bottom = 353.0
+theme = SubResource("Theme_fm8jt")
+text = "Play"
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 527.0
+offset_top = 322.0
+offset_right = 568.0
+offset_bottom = 353.0
+theme = SubResource("Theme_fm8jt")
+text = "Exit"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_exit_pressed"]

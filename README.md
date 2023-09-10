@@ -33,5 +33,24 @@ Running repository for the Game Development Bootcamp hosted by Petrichor' 23
 `Assets/Environment`  : A collection of objects you can add to the environment
 
 ### References
-[Tilemaps](https://docs.godotengine.org/en/stable/tutorials/2d/using_tilemaps.html)
+[Tilemaps](https://docs.godotengine.org/en/stable/tutorials/2d/using_tilemaps.html)  
 [Signals](https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html)
+
+## Session 4
+### Content
+- Level Design
+    - Level transition
+- GUI
+
+### References
+[GUI](https://docs.godotengine.org/en/3.1/getting_started/step_by_step/ui_game_user_interface.html)
+
+
+## Credits
+https://craftpix.net/freebies/free-green-zone-tileset-pixel-art/?num=1&count=1&sq=green%20zone&pos=0  
+https://craftpix.net/freebies/free-3-cyberpunk-characters-pixel-art/
+
+## Contributors
+[Jyothiradithya](https://github.com/unniisme)  
+[Amithabh](https://github.com/Amithabh-A)  
+[Kshitij](https://github.com/Kmg13teen)
